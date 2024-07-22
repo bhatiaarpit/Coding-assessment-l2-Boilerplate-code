@@ -142,7 +142,7 @@ footer {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .card {
@@ -152,7 +152,6 @@ footer {
     overflow: hidden;
     width: 250px;
     text-align: center;
-    padding: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin: 10px;
     position: relative;
@@ -332,16 +331,25 @@ button:hover {
     }
 
     .card {
-        width: 300px;
+        width: 100%px;
+        height: 450px;
     }
+    
+
 }
 
 @media (min-width: 1025px) {
+  .logo img {
+    width: 100px;
+    margin-left: 50px;
+}
     .categories ul {
         gap: 3rem;
     }
 
     .card {
         width: 250px;
+        height: 400px;
+
     }
 }
