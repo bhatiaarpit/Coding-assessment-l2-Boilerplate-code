@@ -24,8 +24,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         products.forEach(product => {
             const card = document.createElement('div');
             card.classList.add('card');
-            card.innerHTML = `
-                <div class="card-img">
+            card.innerHTML = `<div class="card-img">
                     ${product.badge_text ? `<p class="card-badge">${product.badge_text}</p>` : ''}
                     <img src="${product.image}" alt="${product.title}">
                 </div>
@@ -41,8 +40,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <p class="ProductDiscount">${calculateDiscount(product.price, product.compare_at_price)}% Off</p>
                     </div>
                 </div>
-                <button class="card-button">Add to cart</button>
-            `;
+                <button class="card-button">Add to cart</button>`;
             cardsContainer.appendChild(card);
         });
     };

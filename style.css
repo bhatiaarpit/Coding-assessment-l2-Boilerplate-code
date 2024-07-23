@@ -321,8 +321,8 @@ button:hover {
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .logo img {
-        width: 180px;
-        margin-left: 50px;
+        width: 120px;
+        margin-left: 100px;
     }
 
     .categories ul {
@@ -332,7 +332,7 @@ button:hover {
 
     .card {
         width: 100%px;
-        height: 450px;
+        height: 440px;
     }
     
 
